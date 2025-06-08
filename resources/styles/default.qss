@@ -1,0 +1,166 @@
+/* HarperTV Default Style Sheet */
+
+/* Main Window */
+QMainWindow {
+    background-color: #2D2D30;
+    color: #FFFFFF;
+}
+
+/* Menu Bar */
+QMenuBar {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+QMenuBar::item:selected {
+    background-color: #3E3E40;
+}
+
+QMenu {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border: 1px solid #3E3E40;
+}
+
+QMenu::item:selected {
+    background-color: #3E3E40;
+}
+
+/* Video Widget */
+VideoWidget {
+    background-color: #000000;
+    border: 1px solid #3E3E40;
+}
+
+/* Player Controls */
+PlayerControls {
+    background-color: #2D2D30;
+    border-top: 1px solid #3E3E40;
+    padding: 5px;
+}
+
+PlayerControls QPushButton {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+PlayerControls QPushButton:hover {
+    background-color: #3E3E40;
+}
+
+PlayerControls QSlider::groove:horizontal {
+    border: 1px solid #3E3E40;
+    height: 8px;
+    background: #1E1E1E;
+    margin: 2px 0;
+}
+
+PlayerControls QSlider::handle:horizontal {
+    background: #007ACC;
+    border: 1px solid #007ACC;
+    width: 14px;
+    margin: -4px 0;
+    border-radius: 7px;
+}
+
+/* Channel Selector */
+QComboBox {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border: 1px solid #3E3E40;
+    padding: 5px;
+    min-width: 200px;
+}
+
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 20px;
+    border-left: 1px solid #3E3E40;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border: 1px solid #3E3E40;
+    selection-background-color: #3E3E40;
+}
+
+/* Settings Dialog */
+QDialog {
+    background-color: #2D2D30;
+    color: #FFFFFF;
+}
+
+QDialog QLabel {
+    color: #FFFFFF;
+}
+
+QDialog QPushButton {
+    background-color: #007ACC;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 15px;
+    min-width: 80px;
+}
+
+QDialog QPushButton:hover {
+    background-color: #1C97EA;
+}
+
+QDialog QLineEdit, QDialog QSpinBox, QDialog QDoubleSpinBox, QDialog QComboBox {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    border: 1px solid #3E3E40;
+    padding: 5px;
+}
+
+QDialog QTabWidget::pane {
+    border: 1px solid #3E3E40;
+}
+
+QDialog QTabBar::tab {
+    background-color: #2D2D30;
+    color: #FFFFFF;
+    border: 1px solid #3E3E40;
+    padding: 5px 10px;
+}
+
+QDialog QTabBar::tab:selected {
+    background-color: #3E3E40;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    border: none;
+    background: #2D2D30;
+    width: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #3E3E40;
+    min-height: 20px;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background: #2D2D30;
+    height: 10px;
+    margin: 0px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #3E3E40;
+    min-width: 20px;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0px;
+}

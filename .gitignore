@@ -1,0 +1,25 @@
+# Qt构建文件
+*.o
+moc_*
+*.pro.user
+.qmake.stash
+Makefile
+build/
+.qtc_clangd/
+
+# 可执行文件
+HarperTV.app/
+HarperTV
+
+# IDE文件
+*.autosave
+*.swp
+*.swo
+
+# 临时文件
+*~
+*.tmp
+*.bak
+
+# 编译生成的资源文件
+qrc_*.cpp

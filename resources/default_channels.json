@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Big Buck Bunny (Sample)",
+    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+  },
+  {
+    "name": "Sintel (Sample)",
+    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+  },
+  {
+    "name": "Tears of Steel (Sample)",
+    "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+  },
+  {
+    "name": "NASA Public Stream",
+    "url": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8"
+  }
+]
